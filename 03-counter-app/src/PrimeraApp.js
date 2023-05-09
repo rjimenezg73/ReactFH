@@ -2,13 +2,11 @@ import React from 'react';
 
 // Functional Component
 
-const PrimeraApp = () => {
-
-  const saludo = 'Hola Mundo - Constante';
+const PrimeraApp = (props) => {
 
   return (
     <>
-      <h1>{saludo}</h1>
+      <h1>{props.saludo}</h1>
       <p>Mi primera aplicación</p>
     </>
   );
