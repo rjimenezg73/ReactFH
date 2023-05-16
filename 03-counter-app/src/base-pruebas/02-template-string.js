@@ -7,10 +7,10 @@ const apellido = "Jiménez";
 
 const nombreCompleto = `${nombre} ${apellido}`;
 
-console.log(nombreCompleto);
+//console.log(nombreCompleto);
 
-function getSaludo(nom){
+export function getSaludo(nom = "Carlos!"){
   return 'Hola ' + nom;
 }
 
-console.log(`Éste es un texto: ${getSaludo(nombre)}`);
+//console.log(`Éste es un texto: ${getSaludo(nombre)}`);
